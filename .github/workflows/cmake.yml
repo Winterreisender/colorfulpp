@@ -53,7 +53,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install -y cmake llvm
+        run: sudo apt-get update && sudo apt-get install -y cmake clang ninja-build
 
       - name: Build
         run: >
