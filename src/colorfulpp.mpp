@@ -1,0 +1,205 @@
+module;
+#include <cstdint>
+#include <array>
+#include <string>
+#include <regex>
+#include <optional>
+#include <format>
+#include <cmath>
+export module colorfulpp;
+
+using namespace std;
+const regex hex_pattern(R"REGEX(#(?:[a-f\d]{3}){1,2}\b)REGEX", regex_constants::ECMAScript | regex_constants::icase);
+const regex rgba_pattern(R"REGEX(rgba\((?:(?:\s*(0*(?:25[0-5]|2[0-4]\d|1?\d?\d))\s*,)(?:\s*(0*(?:25[0-5]|2[0-4]\d|1?\d?\d))\s*,)(?:\s*(0*(?:25[0-5]|2[0-4]\d|1?\d?\d))\s*,)|(?:\s*0*(?:100(?:\.0+)?|\d?\d(?:\.\d+)?)%\s*,)(?:\s*0*(?:100(?:\.0+)?|\d?\d(?:\.\d+)?)%\s*,)(?:\s*0*(?:100(?:\.0+)?|\d?\d(?:\.\d+)?)%\s*,))\s*0*(1|0(?:\.\d+)?)\s*\))REGEX", regex_constants::ECMAScript | regex_constants::icase);
+//const regex rgbpattern(R"REGEX(rgb\((?:(?:\s*0*(?:25[0-5]|2[0-4]\d|1?\d?\d)\s*,){2}\s*0*(?:25[0-5]|2[0-4]\d|1?\d?\d)|\s*0*(?:100(?:\.0+)?|\d?\d(?:\.\d+)?)%(?:\s*,\s*0*(?:100(?:\.0+)?|\d?\d(?:\.\d+)?)%){2})\s*\))REGEX", regex_constants::ECMAScript | regex_constants::icase);
+//const regex hsl_pattern(R"REGEX(hsl\(\s*0*(?:360|3[0-5]\d|[12]?\d?\d)\s*(?:,\s*0*(?:100(?:\.0+)?|\d?\d(?:\.\d+)?)%\s*){2}\))REGEX", regex_constants::ECMAScript | regex_constants::icase);
+//const regex hsla_pattern(R"REGEX(hsla\(\s*0*(?:360|3[0-5]\d|[12]?\d?\d)\s*(?:,\s*0*(?:100(?:\.0+)?|\d?\d(?:\.\d+)?)%\s*){2},)\s*0*(?:1|0(?:\.\d+)?)\s*\))REGEX", regex_constants::ECMAScript | regex_constants::icase);
+
+template <typename T>
+requires same_as<T, float> || same_as<T, double>
+inline bool f_almost_equal(T a, T b) {
+    return fabs(a-b) <= 0.01; //numeric_limits<T>::epsilon() * 50.0;
+}
+
+export namespace colorfulpp {
+    /**
+     * Pure fuction to convert a Normalized RGB color to a Normalized HSV
+    */
+    tuple<double, double, double> rgb2hsv(double r, double g, double b) {
+        double c_max = max({r,g,b});
+        double c_min = min({r,g,b});
+        double c = c_max - c_min;
+
+        double r2=(c_max-r)/c;
+        double g2=(c_max-g)/c;
+        double b2=(c_max-b)/c;
+
+        double h,s,v;
+        if(c_max==c_min) {
+            h = 0;
+        }else if(c_max==r){
+            h = b2-g2;
+        }else if(c_max==g){
+            h = r2-b2 + 2.0;
+        }else if(c_max==b){
+            h = g2-r2 + 4.0;
+        }
+        h = fmod((h/6.0), 1.0);
+        s = (c_max-c_min) / c_max;
+        v = c_max;
+
+        return { h,s,v };
+    }
+
+    tuple<double, double, double> hsv2rgb(double h, double s, double v) {
+        if (s == 0.0) {
+            return {v, v, v};
+        }
+        double c = v*s;
+        double x = c * (1 - fabs( fmod(h*6, 2.0) - 1.0));
+        double m = v-c;
+        
+        double r=0.0, g=0.0, b=0.0;
+        if((h<60.0/360 && h>=0.0) || h==360.0/360.0){ // TODO: Use B-Tree for performace if NECESSARY.
+            r=c; g=x;
+        }else if(h<120.0/360.0){
+            r=x; g=c;
+        }else if(h<180.0/360.0){
+            g=c; b=x;
+        }else if(h<240.0/360.0){
+            g=x; b=c;
+        }else if(h<300.0/360.0){
+            r=x; b=c;
+        }else if(h<360.0/360.0){
+            r=c;b=x;
+        }
+
+        r+=m; g+=m; b+=m;
+
+        return {r,g,b};
+    }
+
+    /**
+     * This is the center color space. Every color should be able to convert from and to this.
+    */
+    struct NormalizedRgbaColor {
+        double r, g, b, a;
+        NormalizedRgbaColor(double r, double g, double b, double a) :r(r), g(g), b(b), a(a) {}
+
+        string to_string() {
+            return format("normalized_rgba({:.4f},{:.4f},{:.4f},{:.4f})", r,g,b,a);
+        }
+
+        bool operator==(const NormalizedRgbaColor& rhs) const {
+            return f_almost_equal(r,rhs.r) && f_almost_equal(g,rhs.g) && f_almost_equal(b,rhs.b) && f_almost_equal(a,rhs.a);
+        }
+    };
+
+    class IColor {
+        static IColor from_nrgba(double r, double g, double b, double a) = delete;
+        static IColor from(const NormalizedRgbaColor& nrgba) = delete;
+        NormalizedRgbaColor to_nrgba() = delete; 
+        static optional<IColor> from_string(string uri) = delete;
+        string to_string() = delete;
+    };
+
+
+    /**
+     * Web RGBA Color
+    */
+    struct RgbaColor :public IColor {
+        uint8_t r,g,b; double a;
+
+        RgbaColor(uint8_t r, uint8_t g, uint8_t b, double a) :r(r), g(g), b(b), a(a) {}
+        
+        static optional<RgbaColor> from_string(string uri) noexcept {
+            smatch matches;
+            if (!regex_search(uri, matches, rgba_pattern))
+                return nullopt;
+            
+            uint8_t r,g,b; double a;
+            r = stoi(matches[1].str());
+            g = stoi(matches[2].str());
+            b = stoi(matches[3].str());
+            a = stod(matches[4].str());
+            return RgbaColor(r,g,b,a);
+        }
+
+        string to_string() {
+            return format("rgba({},{},{},{:.4f})", r,g,b,a);
+        }
+
+        static RgbaColor from_nrgba(double r, double g, double b, double a) {
+            return RgbaColor({ 
+                static_cast<uint8_t>(round(r*255.0)),
+                static_cast<uint8_t>(round(g*255.0)),
+                static_cast<uint8_t>(round(b*255.0)),
+                a,
+            });
+        }
+        static auto from(const NormalizedRgbaColor& nrgbaColor) {
+            return from_nrgba(nrgbaColor.r,nrgbaColor.g,nrgbaColor.b, nrgbaColor.a);
+        };
+
+        NormalizedRgbaColor to_nrgba() {
+            return NormalizedRgbaColor(r/255.0, g/255.0, b/255.0, a);
+        }
+        
+    };
+
+    struct HexaColor :public RgbaColor {
+        static HexaColor from_nrgba(double r, double g, double b, double a) {
+            return HexaColor({ 
+                static_cast<uint8_t>(round(r*255.0)),
+                static_cast<uint8_t>(round(g*255.0)),
+                static_cast<uint8_t>(round(b*255.0)),
+                a,
+            });
+        }
+        static auto from(const NormalizedRgbaColor& nrgbaColor) {
+            return from_nrgba(nrgbaColor.r,nrgbaColor.g,nrgbaColor.b, nrgbaColor.a);
+        };
+        string to_string() {
+            return format("#{:02x}{:02x}{:02x}{:02x}", r,g,b, static_cast<int>(round(a*255)));
+        }
+    };
+
+    /**
+     * HSV Color
+    */
+    struct HsvaColor :public IColor
+    {
+        int h,s,v; double a;
+
+        HsvaColor(int h,int s,int v,double a) :h(h), s(s), v(v), a(a) {
+            asm volatile("NOP");
+        }
+
+
+        static HsvaColor from_nrgba(double r, double g, double b, double a) {
+            auto [h, s, v] = rgb2hsv(r,g,b);
+            return HsvaColor(
+                static_cast<int>(round(h*360)),
+                static_cast<int>(round(s*100)),
+                static_cast<int>(round(v*100)),
+                a
+            );
+        };
+        static auto from(const NormalizedRgbaColor& nrgbaColor) {
+            return from_nrgba(nrgbaColor.r,nrgbaColor.g,nrgbaColor.b, nrgbaColor.a);
+        };
+
+        NormalizedRgbaColor to_nrgba() {
+            auto [r,g,b] = hsv2rgb(h/360.0, s/100.0, v/100.0);
+            return NormalizedRgbaColor(r,g,b,a);
+        }; 
+        static optional<RgbaColor> from_string(string uri) {
+            throw runtime_error("Not implemented");
+        };
+        string to_string() {
+            return format("hsva({},{}%,{}%,{:.4f})", h, s, v, a);
+        };
+    };
+    
+
+}
