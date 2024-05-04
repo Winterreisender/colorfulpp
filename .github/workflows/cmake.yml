@@ -52,10 +52,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Clang
-        uses: egor-tensin/setup-clang@v1
+      - uses: KyleMayes/install-llvm-action@v2.0.2
         with:
-          # Version to install
+          # The version of LLVM and Clang binaries to install.
           version: 18.1.4
       - name: Install CMake and Ninja
         uses: lukka/get-cmake@v3.29.2
