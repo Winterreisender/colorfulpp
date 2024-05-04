@@ -52,9 +52,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install -y cmake clang ninja-build
-
+      - name: Install Clang
+        uses: egor-tensin/setup-clang@v1
+        with:
+          # Version to install
+          version: 18.1.4
+      - name: Install CMake and Ninja
+        uses: lukka/get-cmake@v3.29.2
+        with:
+          # Optional CMake version, expressed with the semantic version syntax, e.g. '~3.25.0' for the most recent 3.25.x, `ˆ3.25.0` for the most recent 3.x version, or a specific version `3.25.2'. Or `latest` or `latestrc` for the latest stable or release candidate version. If not specified the `latest` is installed.
+          cmakeVersion: 3.29.2 # optional
+          # Optional Ninja version, same syntax as `cmakeVersion` input. If not specified, `latest` is installed
+          ninjaVersion: 1.11.1 # optional
+      
       - name: Build
         run: >
           cmake 
