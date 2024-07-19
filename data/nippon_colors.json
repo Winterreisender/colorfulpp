@@ -1,0 +1,1508 @@
+{
+    "version": "0",
+    "id": "nippon_colors",
+    "name": "日本の伝統色",
+    "description": "https://nipponcolors.com/",
+    "colors": [
+        {
+            "id": "nadeshiko",
+            "name": "撫子",
+            "color": "rgb(220, 159, 180)",
+            "description": ""
+        },
+        {
+            "id": "kohbai",
+            "name": "紅梅",
+            "color": "rgb(225, 107, 140)",
+            "description": ""
+        },
+        {
+            "id": "suoh",
+            "name": "蘇芳",
+            "color": "rgb(142, 53, 74)",
+            "description": ""
+        },
+        {
+            "id": "taikoh",
+            "name": "退紅",
+            "color": "rgb(248, 195, 205)",
+            "description": ""
+        },
+        {
+            "id": "ikkonzome",
+            "name": "一斥染",
+            "color": "rgb(244, 167, 185)",
+            "description": ""
+        },
+        {
+            "id": "kuwazome",
+            "name": "桑染",
+            "color": "rgb(100, 54, 60)",
+            "description": ""
+        },
+        {
+            "id": "momo",
+            "name": "桃",
+            "color": "rgb(245, 150, 170)",
+            "description": ""
+        },
+        {
+            "id": "ichigo",
+            "name": "苺",
+            "color": "rgb(181, 73, 91)",
+            "description": ""
+        },
+        {
+            "id": "usubeni",
+            "name": "薄紅",
+            "color": "rgb(232, 122, 144)",
+            "description": ""
+        },
+        {
+            "id": "imayoh",
+            "name": "今様",
+            "color": "rgb(208, 90, 110)",
+            "description": ""
+        },
+        {
+            "id": "nakabeni",
+            "name": "中紅",
+            "color": "rgb(219, 77, 109)",
+            "description": ""
+        },
+        {
+            "id": "sakura",
+            "name": "桜",
+            "color": "rgb(254, 223, 225)",
+            "description": ""
+        },
+        {
+            "id": "umenezumi",
+            "name": "梅鼠",
+            "color": "rgb(158, 122, 122)",
+            "description": ""
+        },
+        {
+            "id": "karakurenai",
+            "name": "韓紅花",
+            "color": "rgb(208, 16, 76)",
+            "description": ""
+        },
+        {
+            "id": "enji",
+            "name": "燕脂",
+            "color": "rgb(159, 53, 58)",
+            "description": ""
+        },
+        {
+            "id": "kurenai",
+            "name": "紅",
+            "color": "rgb(203, 27, 69)",
+            "description": ""
+        },
+        {
+            "id": "toki",
+            "name": "鴇",
+            "color": "rgb(238, 169, 169)",
+            "description": ""
+        },
+        {
+            "id": "cyohsyun",
+            "name": "長春",
+            "color": "rgb(191, 103, 102)",
+            "description": ""
+        },
+        {
+            "id": "kokiake",
+            "name": "深緋",
+            "color": "rgb(134, 71, 63)",
+            "description": ""
+        },
+        {
+            "id": "sakuranezumi",
+            "name": "桜鼠",
+            "color": "rgb(177, 150, 147)",
+            "description": ""
+        },
+        {
+            "id": "jinzamomi",
+            "name": "甚三紅",
+            "color": "rgb(235, 122, 119)",
+            "description": ""
+        },
+        {
+            "id": "azuki",
+            "name": "小豆",
+            "color": "rgb(149, 74, 69)",
+            "description": ""
+        },
+        {
+            "id": "suohkoh",
+            "name": "蘇芳香",
+            "color": "rgb(169, 99, 96)",
+            "description": ""
+        },
+        {
+            "id": "akabeni",
+            "name": "赤紅",
+            "color": "rgb(203, 64, 66)",
+            "description": ""
+        },
+        {
+            "id": "shinsyu",
+            "name": "真朱",
+            "color": "rgb(171, 59, 58)",
+            "description": ""
+        },
+        {
+            "id": "haizakura",
+            "name": "灰桜",
+            "color": "rgb(215, 196, 187)",
+            "description": ""
+        },
+        {
+            "id": "kuriume",
+            "name": "栗梅",
+            "color": "rgb(144, 72, 64)",
+            "description": ""
+        },
+        {
+            "id": "ebicha",
+            "name": "海老茶",
+            "color": "rgb(115, 67, 56)",
+            "description": ""
+        },
+        {
+            "id": "ginsyu",
+            "name": "銀朱",
+            "color": "rgb(199, 62, 58)",
+            "description": ""
+        },
+        {
+            "id": "kurotobi",
+            "name": "黒鳶",
+            "color": "rgb(85, 66, 54)",
+            "description": ""
+        },
+        {
+            "id": "benitobi",
+            "name": "紅鳶",
+            "color": "rgb(153, 70, 57)",
+            "description": ""
+        },
+        {
+            "id": "akebono",
+            "name": "曙",
+            "color": "rgb(241, 148, 131)",
+            "description": ""
+        },
+        {
+            "id": "benikaba",
+            "name": "紅樺",
+            "color": "rgb(181, 68, 52)",
+            "description": ""
+        },
+        {
+            "id": "mizugaki",
+            "name": "水がき",
+            "color": "rgb(185, 136, 125)",
+            "description": ""
+        },
+        {
+            "id": "sangosyu",
+            "name": "珊瑚朱",
+            "color": "rgb(241, 124, 103)",
+            "description": ""
+        },
+        {
+            "id": "benihiwada",
+            "name": "紅檜皮",
+            "color": "rgb(136, 76, 58)",
+            "description": ""
+        },
+        {
+            "id": "syojyohi",
+            "name": "猩猩緋",
+            "color": "rgb(232, 48, 21)",
+            "description": ""
+        },
+        {
+            "id": "entan",
+            "name": "鉛丹",
+            "color": "rgb(215, 84, 85)",
+            "description": ""
+        },
+        {
+            "id": "shikancha",
+            "name": "芝翫茶",
+            "color": "rgb(181, 93, 76)",
+            "description": ""
+        },
+        {
+            "id": "hiwada",
+            "name": "檜皮",
+            "color": "rgb(133, 72, 54)",
+            "description": ""
+        },
+        {
+            "id": "kakishibu",
+            "name": "柿渋",
+            "color": "rgb(163, 94, 71)",
+            "description": ""
+        },
+        {
+            "id": "ake",
+            "name": "緋",
+            "color": "rgb(204, 84, 58)",
+            "description": ""
+        },
+        {
+            "id": "tobi",
+            "name": "鳶",
+            "color": "rgb(114, 72, 50)",
+            "description": ""
+        },
+        {
+            "id": "benihi",
+            "name": "紅緋",
+            "color": "rgb(247, 92, 47)",
+            "description": ""
+        },
+        {
+            "id": "kurikawacha",
+            "name": "栗皮茶",
+            "color": "rgb(106, 64, 40)",
+            "description": ""
+        },
+        {
+            "id": "bengara",
+            "name": "弁柄",
+            "color": "rgb(154, 80, 52)",
+            "description": ""
+        },
+        {
+            "id": "terigaki",
+            "name": "照柿",
+            "color": "rgb(196, 98, 67)",
+            "description": ""
+        },
+        {
+            "id": "edocha",
+            "name": "江戸茶",
+            "color": "rgb(175, 95, 60)",
+            "description": ""
+        },
+        {
+            "id": "araisyu",
+            "name": "洗朱",
+            "color": "rgb(251, 150, 110)",
+            "description": ""
+        },
+        {
+            "id": "momoshiocha",
+            "name": "百塩茶",
+            "color": "rgb(114, 73, 56)",
+            "description": ""
+        },
+        {
+            "id": "karacha",
+            "name": "唐茶",
+            "color": "rgb(180, 113, 87)",
+            "description": ""
+        },
+        {
+            "id": "tokigaracha",
+            "name": "ときがら茶",
+            "color": "rgb(219, 142, 113)",
+            "description": ""
+        },
+        {
+            "id": "ohni",
+            "name": "黄丹",
+            "color": "rgb(240, 94, 28)",
+            "description": ""
+        },
+        {
+            "id": "sohi",
+            "name": "纁",
+            "color": "rgb(237, 120, 74)",
+            "description": ""
+        },
+        {
+            "id": "ensyucha",
+            "name": "遠州茶",
+            "color": "rgb(202, 120, 83)",
+            "description": ""
+        },
+        {
+            "id": "kabacha",
+            "name": "樺茶",
+            "color": "rgb(179, 92, 55)",
+            "description": ""
+        },
+        {
+            "id": "kogecha",
+            "name": "焦茶",
+            "color": "rgb(86, 63, 46)",
+            "description": ""
+        },
+        {
+            "id": "akakoh",
+            "name": "赤香",
+            "color": "rgb(227, 145, 110)",
+            "description": ""
+        },
+        {
+            "id": "suzumecha",
+            "name": "雀茶",
+            "color": "rgb(143, 90, 60)",
+            "description": ""
+        },
+        {
+            "id": "shishi",
+            "name": "宍",
+            "color": "rgb(240, 169, 134)",
+            "description": ""
+        },
+        {
+            "id": "sodenkaracha",
+            "name": "宗伝唐茶",
+            "color": "rgb(160, 103, 75)",
+            "description": ""
+        },
+        {
+            "id": "kaba",
+            "name": "樺",
+            "color": "rgb(193, 105, 60)",
+            "description": ""
+        },
+        {
+            "id": "kokikuchinashi",
+            "name": "深支子",
+            "color": "rgb(251, 153, 102)",
+            "description": ""
+        },
+        {
+            "id": "kurumi",
+            "name": "胡桃",
+            "color": "rgb(148, 122, 109)",
+            "description": ""
+        },
+        {
+            "id": "taisya",
+            "name": "代赭",
+            "color": "rgb(163, 99, 54)",
+            "description": ""
+        },
+        {
+            "id": "araigaki",
+            "name": "洗柿",
+            "color": "rgb(231, 148, 96)",
+            "description": ""
+        },
+        {
+            "id": "kohrozen",
+            "name": "黄櫨染",
+            "color": "rgb(125, 83, 44)",
+            "description": ""
+        },
+        {
+            "id": "akakuchiba",
+            "name": "赤朽葉",
+            "color": "rgb(199, 133, 80)",
+            "description": ""
+        },
+        {
+            "id": "tonocha",
+            "name": "礪茶",
+            "color": "rgb(152, 95, 42)",
+            "description": ""
+        },
+        {
+            "id": "akashirotsurubami",
+            "name": "赤白橡",
+            "color": "rgb(225, 166, 121)",
+            "description": ""
+        },
+        {
+            "id": "sencha",
+            "name": "煎茶",
+            "color": "rgb(133, 91, 50)",
+            "description": ""
+        },
+        {
+            "id": "kanzo",
+            "name": "萱草",
+            "color": "rgb(252, 159, 77)",
+            "description": ""
+        },
+        {
+            "id": "sharegaki",
+            "name": "洒落柿",
+            "color": "rgb(255, 186, 132)",
+            "description": ""
+        },
+        {
+            "id": "beniukon",
+            "name": "紅鬱金",
+            "color": "rgb(233, 139, 42)",
+            "description": ""
+        },
+        {
+            "id": "umezome",
+            "name": "梅染",
+            "color": "rgb(233, 163, 104)",
+            "description": ""
+        },
+        {
+            "id": "biwacha",
+            "name": "枇杷茶",
+            "color": "rgb(177, 120, 68)",
+            "description": ""
+        },
+        {
+            "id": "chojicha",
+            "name": "丁子茶",
+            "color": "rgb(150, 99, 46)",
+            "description": ""
+        },
+        {
+            "id": "kenpohzome",
+            "name": "憲法染",
+            "color": "rgb(67, 52, 27)",
+            "description": ""
+        },
+        {
+            "id": "kohaku",
+            "name": "琥珀",
+            "color": "rgb(202, 122, 44)",
+            "description": ""
+        },
+        {
+            "id": "usugaki",
+            "name": "薄柿",
+            "color": "rgb(236, 184, 138)",
+            "description": ""
+        },
+        {
+            "id": "kyara",
+            "name": "伽羅",
+            "color": "rgb(120, 85, 43)",
+            "description": ""
+        },
+        {
+            "id": "chojizome",
+            "name": "丁子染",
+            "color": "rgb(176, 119, 54)",
+            "description": ""
+        },
+        {
+            "id": "fushizome",
+            "name": "柴染",
+            "color": "rgb(150, 114, 73)",
+            "description": ""
+        },
+        {
+            "id": "kuchiba",
+            "name": "朽葉",
+            "color": "rgb(226, 148, 59)",
+            "description": ""
+        },
+        {
+            "id": "kincha",
+            "name": "金茶",
+            "color": "rgb(199, 128, 45)",
+            "description": ""
+        },
+        {
+            "id": "kitsune",
+            "name": "狐",
+            "color": "rgb(155, 110, 35)",
+            "description": ""
+        },
+        {
+            "id": "susutake",
+            "name": "煤竹",
+            "color": "rgb(110, 85, 47)",
+            "description": ""
+        },
+        {
+            "id": "usukoh",
+            "name": "薄香",
+            "color": "rgb(235, 180, 113)",
+            "description": ""
+        },
+        {
+            "id": "tonoko",
+            "name": "砥粉",
+            "color": "rgb(215, 185, 142)",
+            "description": ""
+        },
+        {
+            "id": "ginsusutake",
+            "name": "銀煤竹",
+            "color": "rgb(130, 102, 58)",
+            "description": ""
+        },
+        {
+            "id": "ohdo",
+            "name": "黄土",
+            "color": "rgb(182, 142, 85)",
+            "description": ""
+        },
+        {
+            "id": "shiracha",
+            "name": "白茶",
+            "color": "rgb(188, 159, 119)",
+            "description": ""
+        },
+        {
+            "id": "kobicha",
+            "name": "媚茶",
+            "color": "rgb(135, 102, 51)",
+            "description": ""
+        },
+        {
+            "id": "kigaracha",
+            "name": "黄唐茶",
+            "color": "rgb(193, 138, 38)",
+            "description": ""
+        },
+        {
+            "id": "yamabuki",
+            "name": "山吹",
+            "color": "rgb(255, 177, 27)",
+            "description": ""
+        },
+        {
+            "id": "yamabukicha",
+            "name": "山吹茶",
+            "color": "rgb(209, 152, 38)",
+            "description": ""
+        },
+        {
+            "id": "hajizome",
+            "name": "櫨染",
+            "color": "rgb(221, 165, 45)",
+            "description": ""
+        },
+        {
+            "id": "kuwacha",
+            "name": "桑茶",
+            "color": "rgb(201, 152, 51)",
+            "description": ""
+        },
+        {
+            "id": "tamago",
+            "name": "玉子",
+            "color": "rgb(249, 191, 69)",
+            "description": ""
+        },
+        {
+            "id": "shirotsurubami",
+            "name": "白橡",
+            "color": "rgb(220, 184, 121)",
+            "description": ""
+        },
+        {
+            "id": "kitsurubami",
+            "name": "黄橡",
+            "color": "rgb(186, 145, 50)",
+            "description": ""
+        },
+        {
+            "id": "tamamorokoshi",
+            "name": "玉蜀黍",
+            "color": "rgb(232, 182, 71)",
+            "description": ""
+        },
+        {
+            "id": "hanaba",
+            "name": "花葉",
+            "color": "rgb(247, 194, 66)",
+            "description": ""
+        },
+        {
+            "id": "namakabe",
+            "name": "生壁",
+            "color": "rgb(125, 108, 70)",
+            "description": ""
+        },
+        {
+            "id": "torinoko",
+            "name": "鳥の子",
+            "color": "rgb(218, 201, 166)",
+            "description": ""
+        },
+        {
+            "id": "usuki",
+            "name": "浅黄",
+            "color": "rgb(250, 214, 137)",
+            "description": ""
+        },
+        {
+            "id": "kikuchiba",
+            "name": "黄朽葉",
+            "color": "rgb(217, 171, 66)",
+            "description": ""
+        },
+        {
+            "id": "kuchinashi",
+            "name": "梔子",
+            "color": "rgb(246, 197, 85)",
+            "description": ""
+        },
+        {
+            "id": "tohoh",
+            "name": "籐黄",
+            "color": "rgb(255, 196, 8)",
+            "description": ""
+        },
+        {
+            "id": "ukon",
+            "name": "鬱金",
+            "color": "rgb(239, 187, 36)",
+            "description": ""
+        },
+        {
+            "id": "karashi",
+            "name": "芥子",
+            "color": "rgb(202, 173, 95)",
+            "description": ""
+        },
+        {
+            "id": "higosusutake",
+            "name": "肥後煤竹",
+            "color": "rgb(141, 116, 42)",
+            "description": ""
+        },
+        {
+            "id": "rikyushiracha",
+            "name": "利休白茶",
+            "color": "rgb(180, 165, 130)",
+            "description": ""
+        },
+        {
+            "id": "aku",
+            "name": "灰汁",
+            "color": "rgb(135, 127, 108)",
+            "description": ""
+        },
+        {
+            "id": "rikyucha",
+            "name": "利休茶",
+            "color": "rgb(137, 125, 85)",
+            "description": ""
+        },
+        {
+            "id": "rokohcha",
+            "name": "路考茶",
+            "color": "rgb(116, 103, 62)",
+            "description": ""
+        },
+        {
+            "id": "nataneyu",
+            "name": "菜種油",
+            "color": "rgb(162, 140, 55)",
+            "description": ""
+        },
+        {
+            "id": "uguisucha",
+            "name": "鶯茶",
+            "color": "rgb(108, 96, 36)",
+            "description": ""
+        },
+        {
+            "id": "kimirucha",
+            "name": "黄海松茶",
+            "color": "rgb(134, 120, 53)",
+            "description": ""
+        },
+        {
+            "id": "mirucha",
+            "name": "海松茶",
+            "color": "rgb(98, 89, 44)",
+            "description": ""
+        },
+        {
+            "id": "kariyasu",
+            "name": "刈安",
+            "color": "rgb(233, 205, 76)",
+            "description": ""
+        },
+        {
+            "id": "nanohana",
+            "name": "菜の花",
+            "color": "rgb(247, 217, 76)",
+            "description": ""
+        },
+        {
+            "id": "kihada",
+            "name": "黄蘗",
+            "color": "rgb(251, 226, 81)",
+            "description": ""
+        },
+        {
+            "id": "mushikuri",
+            "name": "蒸栗",
+            "color": "rgb(217, 205, 144)",
+            "description": ""
+        },
+        {
+            "id": "aokuchiba",
+            "name": "青朽葉",
+            "color": "rgb(173, 161, 66)",
+            "description": ""
+        },
+        {
+            "id": "ominaeshi",
+            "name": "女郎花",
+            "color": "rgb(221, 210, 59)",
+            "description": ""
+        },
+        {
+            "id": "hiwacha",
+            "name": "鶸茶",
+            "color": "rgb(165, 160, 81)",
+            "description": ""
+        },
+        {
+            "id": "hiwa",
+            "name": "鶸",
+            "color": "rgb(190, 194, 63)",
+            "description": ""
+        },
+        {
+            "id": "uguisu",
+            "name": "鶯",
+            "color": "rgb(108, 106, 45)",
+            "description": ""
+        },
+        {
+            "id": "yanagicha",
+            "name": "柳茶",
+            "color": "rgb(147, 150, 80)",
+            "description": ""
+        },
+        {
+            "id": "koke",
+            "name": "苔",
+            "color": "rgb(131, 138, 45)",
+            "description": ""
+        },
+        {
+            "id": "kikujin",
+            "name": "麹塵",
+            "color": "rgb(177, 180, 121)",
+            "description": ""
+        },
+        {
+            "id": "rikancha",
+            "name": "璃寛茶",
+            "color": "rgb(97, 97, 56)",
+            "description": ""
+        },
+        {
+            "id": "aikobicha",
+            "name": "藍媚茶",
+            "color": "rgb(75, 78, 42)",
+            "description": ""
+        },
+        {
+            "id": "miru",
+            "name": "海松",
+            "color": "rgb(91, 98, 46)",
+            "description": ""
+        },
+        {
+            "id": "sensaicha",
+            "name": "千歳茶",
+            "color": "rgb(77, 81, 57)",
+            "description": ""
+        },
+        {
+            "id": "baikocha",
+            "name": "梅幸茶",
+            "color": "rgb(137, 145, 107)",
+            "description": ""
+        },
+        {
+            "id": "hiwamoegi",
+            "name": "鶸萌黄",
+            "color": "rgb(144, 180, 75)",
+            "description": ""
+        },
+        {
+            "id": "yanagizome",
+            "name": "柳染",
+            "color": "rgb(145, 173, 112)",
+            "description": ""
+        },
+        {
+            "id": "urayanagi",
+            "name": "裏柳",
+            "color": "rgb(181, 202, 160)",
+            "description": ""
+        },
+        {
+            "id": "iwaicha",
+            "name": "岩井茶",
+            "color": "rgb(100, 106, 88)",
+            "description": ""
+        },
+        {
+            "id": "moegi",
+            "name": "萌黄",
+            "color": "rgb(123, 162, 63)",
+            "description": ""
+        },
+        {
+            "id": "nae",
+            "name": "苗",
+            "color": "rgb(134, 193, 102)",
+            "description": ""
+        },
+        {
+            "id": "yanagisusutake",
+            "name": "柳煤竹",
+            "color": "rgb(74, 89, 61)",
+            "description": ""
+        },
+        {
+            "id": "matsuba",
+            "name": "松葉",
+            "color": "rgb(66, 96, 45)",
+            "description": ""
+        },
+        {
+            "id": "aoni",
+            "name": "青丹",
+            "color": "rgb(81, 110, 65)",
+            "description": ""
+        },
+        {
+            "id": "usuao",
+            "name": "薄青",
+            "color": "rgb(145, 180, 147)",
+            "description": ""
+        },
+        {
+            "id": "yanaginezumi",
+            "name": "柳鼠",
+            "color": "rgb(128, 143, 124)",
+            "description": ""
+        },
+        {
+            "id": "tokiwa",
+            "name": "常磐",
+            "color": "rgb(27, 129, 62)",
+            "description": ""
+        },
+        {
+            "id": "wakatake",
+            "name": "若竹",
+            "color": "rgb(93, 172, 129)",
+            "description": ""
+        },
+        {
+            "id": "chitosemidori",
+            "name": "千歳緑",
+            "color": "rgb(54, 86, 60)",
+            "description": ""
+        },
+        {
+            "id": "midori",
+            "name": "緑",
+            "color": "rgb(34, 125, 81)",
+            "description": ""
+        },
+        {
+            "id": "byakuroku",
+            "name": "白緑",
+            "color": "rgb(168, 216, 185)",
+            "description": ""
+        },
+        {
+            "id": "oitake",
+            "name": "老竹",
+            "color": "rgb(106, 131, 114)",
+            "description": ""
+        },
+        {
+            "id": "tokusa",
+            "name": "木賊",
+            "color": "rgb(45, 109, 75)",
+            "description": ""
+        },
+        {
+            "id": "onandocha",
+            "name": "御納戸茶",
+            "color": "rgb(70, 93, 76)",
+            "description": ""
+        },
+        {
+            "id": "rokusyoh",
+            "name": "緑青",
+            "color": "rgb(36, 147, 110)",
+            "description": ""
+        },
+        {
+            "id": "sabiseiji",
+            "name": "錆青磁",
+            "color": "rgb(134, 166, 151)",
+            "description": ""
+        },
+        {
+            "id": "aotake",
+            "name": "青竹",
+            "color": "rgb(0, 137, 108)",
+            "description": ""
+        },
+        {
+            "id": "veludo",
+            "name": "ビロード",
+            "color": "rgb(9, 97, 72)",
+            "description": ""
+        },
+        {
+            "id": "mushiao",
+            "name": "虫襖",
+            "color": "rgb(32, 96, 79)",
+            "description": ""
+        },
+        {
+            "id": "aimirucha",
+            "name": "藍海松茶",
+            "color": "rgb(15, 76, 58)",
+            "description": ""
+        },
+        {
+            "id": "tonocha2",
+            "name": "沈香茶",
+            "color": "rgb(79, 114, 108)",
+            "description": ""
+        },
+        {
+            "id": "aomidori",
+            "name": "青緑",
+            "color": "rgb(0, 170, 144)",
+            "description": ""
+        },
+        {
+            "id": "seiji",
+            "name": "青磁",
+            "color": "rgb(105, 176, 172)",
+            "description": ""
+        },
+        {
+            "id": "tetsu",
+            "name": "鉄",
+            "color": "rgb(38, 69, 61)",
+            "description": ""
+        },
+        {
+            "id": "mizuasagi",
+            "name": "水浅葱",
+            "color": "rgb(102, 186, 183)",
+            "description": ""
+        },
+        {
+            "id": "seiheki",
+            "name": "青碧",
+            "color": "rgb(38, 135, 133)",
+            "description": ""
+        },
+        {
+            "id": "sabitetsuonando",
+            "name": "錆鉄御納戸",
+            "color": "rgb(64, 91, 85)",
+            "description": ""
+        },
+        {
+            "id": "korainando",
+            "name": "高麗納戸",
+            "color": "rgb(48, 90, 86)",
+            "description": ""
+        },
+        {
+            "id": "byakugun",
+            "name": "白群",
+            "color": "rgb(120, 194, 196)",
+            "description": ""
+        },
+        {
+            "id": "omeshicha",
+            "name": "御召茶",
+            "color": "rgb(55, 107, 109)",
+            "description": ""
+        },
+        {
+            "id": "kamenozoki",
+            "name": "瓶覗",
+            "color": "rgb(165, 222, 228)",
+            "description": ""
+        },
+        {
+            "id": "fukagawanezumi",
+            "name": "深川鼠",
+            "color": "rgb(119, 150, 154)",
+            "description": ""
+        },
+        {
+            "id": "sabiasagi",
+            "name": "錆浅葱",
+            "color": "rgb(102, 153, 161)",
+            "description": ""
+        },
+        {
+            "id": "mizu",
+            "name": "水",
+            "color": "rgb(129, 199, 212)",
+            "description": ""
+        },
+        {
+            "id": "asagi",
+            "name": "浅葱",
+            "color": "rgb(51, 166, 184)",
+            "description": ""
+        },
+        {
+            "id": "onando",
+            "name": "御納戸",
+            "color": "rgb(12, 72, 66)",
+            "description": ""
+        },
+        {
+            "id": "ai",
+            "name": "藍",
+            "color": "rgb(13, 86, 97)",
+            "description": ""
+        },
+        {
+            "id": "shinbashi",
+            "name": "新橋",
+            "color": "rgb(0, 137, 167)",
+            "description": ""
+        },
+        {
+            "id": "sabionando",
+            "name": "錆御納戸",
+            "color": "rgb(51, 103, 116)",
+            "description": ""
+        },
+        {
+            "id": "tetsuonando",
+            "name": "鉄御納戸",
+            "color": "rgb(37, 83, 89)",
+            "description": ""
+        },
+        {
+            "id": "hanaasagi",
+            "name": "花浅葱",
+            "color": "rgb(30, 136, 168)",
+            "description": ""
+        },
+        {
+            "id": "ainezumi",
+            "name": "藍鼠",
+            "color": "rgb(86, 108, 115)",
+            "description": ""
+        },
+        {
+            "id": "masuhana",
+            "name": "舛花",
+            "color": "rgb(87, 124, 138)",
+            "description": ""
+        },
+        {
+            "id": "sora",
+            "name": "空",
+            "color": "rgb(88, 178, 220)",
+            "description": ""
+        },
+        {
+            "id": "noshimehana",
+            "name": "熨斗目花",
+            "color": "rgb(43, 95, 117)",
+            "description": ""
+        },
+        {
+            "id": "chigusa",
+            "name": "千草",
+            "color": "rgb(58, 143, 183)",
+            "description": ""
+        },
+        {
+            "id": "omeshionando",
+            "name": "御召御納戸",
+            "color": "rgb(46, 92, 110)",
+            "description": ""
+        },
+        {
+            "id": "hanada",
+            "name": "縹",
+            "color": "rgb(0, 98, 132)",
+            "description": ""
+        },
+        {
+            "id": "wasurenagusa",
+            "name": "勿忘草",
+            "color": "rgb(125, 185, 222)",
+            "description": ""
+        },
+        {
+            "id": "gunjyo",
+            "name": "群青",
+            "color": "rgb(81, 168, 221)",
+            "description": ""
+        },
+        {
+            "id": "tsuyukusa",
+            "name": "露草",
+            "color": "rgb(46, 169, 223)",
+            "description": ""
+        },
+        {
+            "id": "kurotsurubami",
+            "name": "黒橡",
+            "color": "rgb(11, 16, 19)",
+            "description": ""
+        },
+        {
+            "id": "kon",
+            "name": "紺",
+            "color": "rgb(15, 37, 64)",
+            "description": ""
+        },
+        {
+            "id": "kachi",
+            "name": "褐",
+            "color": "rgb(8, 25, 45)",
+            "description": ""
+        },
+        {
+            "id": "ruri",
+            "name": "瑠璃",
+            "color": "rgb(0, 92, 175)",
+            "description": ""
+        },
+        {
+            "id": "rurikon",
+            "name": "瑠璃紺",
+            "color": "rgb(11, 52, 110)",
+            "description": ""
+        },
+        {
+            "id": "benimidori",
+            "name": "紅碧",
+            "color": "rgb(123, 144, 210)",
+            "description": ""
+        },
+        {
+            "id": "fujinezumi",
+            "name": "藤鼠",
+            "color": "rgb(110, 117, 164)",
+            "description": ""
+        },
+        {
+            "id": "tetsukon",
+            "name": "鉄紺",
+            "color": "rgb(38, 30, 71)",
+            "description": ""
+        },
+        {
+            "id": "konjyo",
+            "name": "紺青",
+            "color": "rgb(17, 50, 133)",
+            "description": ""
+        },
+        {
+            "id": "benikakehana",
+            "name": "紅掛花",
+            "color": "rgb(78, 79, 151)",
+            "description": ""
+        },
+        {
+            "id": "konkikyo",
+            "name": "紺桔梗",
+            "color": "rgb(33, 30, 85)",
+            "description": ""
+        },
+        {
+            "id": "fuji",
+            "name": "藤",
+            "color": "rgb(139, 129, 195)",
+            "description": ""
+        },
+        {
+            "id": "futaai",
+            "name": "二藍",
+            "color": "rgb(112, 100, 154)",
+            "description": ""
+        },
+        {
+            "id": "ouchi",
+            "name": "楝",
+            "color": "rgb(155, 144, 194)",
+            "description": ""
+        },
+        {
+            "id": "fujimurasaki",
+            "name": "藤紫",
+            "color": "rgb(138, 107, 190)",
+            "description": ""
+        },
+        {
+            "id": "kikyo",
+            "name": "桔梗",
+            "color": "rgb(106, 76, 156)",
+            "description": ""
+        },
+        {
+            "id": "shion",
+            "name": "紫苑",
+            "color": "rgb(143, 119, 181)",
+            "description": ""
+        },
+        {
+            "id": "messhi",
+            "name": "滅紫",
+            "color": "rgb(83, 61, 91)",
+            "description": ""
+        },
+        {
+            "id": "usu",
+            "name": "薄",
+            "color": "rgb(178, 143, 206)",
+            "description": ""
+        },
+        {
+            "id": "hashita",
+            "name": "半",
+            "color": "rgb(152, 109, 178)",
+            "description": ""
+        },
+        {
+            "id": "edomurasaki",
+            "name": "江戸紫",
+            "color": "rgb(119, 66, 141)",
+            "description": ""
+        },
+        {
+            "id": "shikon",
+            "name": "紫紺",
+            "color": "rgb(60, 47, 65)",
+            "description": ""
+        },
+        {
+            "id": "kokimurasaki",
+            "name": "深紫",
+            "color": "rgb(74, 34, 93)",
+            "description": ""
+        },
+        {
+            "id": "sumire",
+            "name": "菫",
+            "color": "rgb(102, 50, 124)",
+            "description": ""
+        },
+        {
+            "id": "murasaki",
+            "name": "紫",
+            "color": "rgb(89, 44, 99)",
+            "description": ""
+        },
+        {
+            "id": "ayame",
+            "name": "菖蒲",
+            "color": "rgb(111, 51, 129)",
+            "description": ""
+        },
+        {
+            "id": "fujisusutake",
+            "name": "藤煤竹",
+            "color": "rgb(87, 76, 87)",
+            "description": ""
+        },
+        {
+            "id": "benifuji",
+            "name": "紅藤",
+            "color": "rgb(180, 129, 187)",
+            "description": ""
+        },
+        {
+            "id": "kurobeni",
+            "name": "黒紅",
+            "color": "rgb(63, 43, 54)",
+            "description": ""
+        },
+        {
+            "id": "nasukon",
+            "name": "茄子紺",
+            "color": "rgb(87, 42, 63)",
+            "description": ""
+        },
+        {
+            "id": "budohnezumi",
+            "name": "葡萄鼠",
+            "color": "rgb(94, 61, 80)",
+            "description": ""
+        },
+        {
+            "id": "hatobanezumi",
+            "name": "鳩羽鼠",
+            "color": "rgb(114, 99, 110)",
+            "description": ""
+        },
+        {
+            "id": "kakitsubata",
+            "name": "杜若",
+            "color": "rgb(98, 41, 84)",
+            "description": ""
+        },
+        {
+            "id": "ebizome",
+            "name": "蒲葡",
+            "color": "rgb(109, 46, 91)",
+            "description": ""
+        },
+        {
+            "id": "botan",
+            "name": "牡丹",
+            "color": "rgb(193, 50, 142)",
+            "description": ""
+        },
+        {
+            "id": "umemurasaki",
+            "name": "梅紫",
+            "color": "rgb(168, 73, 122)",
+            "description": ""
+        },
+        {
+            "id": "nisemurasaki",
+            "name": "似紫",
+            "color": "rgb(86, 46, 55)",
+            "description": ""
+        },
+        {
+            "id": "tsutsuji",
+            "name": "躑躅",
+            "color": "rgb(224, 60, 138)",
+            "description": ""
+        },
+        {
+            "id": "murasakitobi",
+            "name": "紫鳶",
+            "color": "rgb(96, 55, 62)",
+            "description": ""
+        },
+        {
+            "id": "shironeri",
+            "name": "白練",
+            "color": "rgb(252, 250, 242)",
+            "description": ""
+        },
+        {
+            "id": "gofun",
+            "name": "胡粉",
+            "color": "rgb(255, 255, 251)",
+            "description": ""
+        },
+        {
+            "id": "shironezumi",
+            "name": "白鼠",
+            "color": "rgb(189, 192, 186)",
+            "description": ""
+        },
+        {
+            "id": "ginnezumi",
+            "name": "銀鼠",
+            "color": "rgb(145, 152, 159)",
+            "description": ""
+        },
+        {
+            "id": "namari",
+            "name": "鉛",
+            "color": "rgb(120, 120, 120)",
+            "description": ""
+        },
+        {
+            "id": "hai",
+            "name": "灰",
+            "color": "rgb(130, 130, 130)",
+            "description": ""
+        },
+        {
+            "id": "sunezumi",
+            "name": "素鼠",
+            "color": "rgb(120, 125, 123)",
+            "description": ""
+        },
+        {
+            "id": "rikyunezumi",
+            "name": "利休鼠",
+            "color": "rgb(112, 124, 116)",
+            "description": ""
+        },
+        {
+            "id": "nibi",
+            "name": "鈍",
+            "color": "rgb(101, 103, 101)",
+            "description": ""
+        },
+        {
+            "id": "aonibi",
+            "name": "青鈍",
+            "color": "rgb(83, 89, 83)",
+            "description": ""
+        },
+        {
+            "id": "dobunezumi",
+            "name": "溝鼠",
+            "color": "rgb(79, 79, 72)",
+            "description": ""
+        },
+        {
+            "id": "benikeshinezumi",
+            "name": "紅消鼠",
+            "color": "rgb(82, 67, 61)",
+            "description": ""
+        },
+        {
+            "id": "aisumicha",
+            "name": "藍墨茶",
+            "color": "rgb(55, 60, 56)",
+            "description": ""
+        },
+        {
+            "id": "binrojizome",
+            "name": "檳榔子染",
+            "color": "rgb(58, 50, 38)",
+            "description": ""
+        },
+        {
+            "id": "keshizumi",
+            "name": "消炭",
+            "color": "rgb(67, 67, 67)",
+            "description": ""
+        },
+        {
+            "id": "sumi",
+            "name": "墨",
+            "color": "rgb(28, 28, 28)",
+            "description": ""
+        },
+        {
+            "id": "kuro",
+            "name": "黒",
+            "color": "rgb(8, 8, 8)",
+            "description": ""
+        },
+        {
+            "id": "ro",
+            "name": "呂",
+            "color": "rgb(12, 12, 12)",
+            "description": ""
+        }
+    ]
+}

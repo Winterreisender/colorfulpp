@@ -1,0 +1,22 @@
+[project]
+name = "colorfulpp"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "NOT_DEFINED", email = "NOT_DEFINED@NOT_DEFINED.net"},
+]
+dependencies = [
+    "click>=8.1.7",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "AGPL-3.0-only"}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pyinstaller>=6.9.0",
+]
